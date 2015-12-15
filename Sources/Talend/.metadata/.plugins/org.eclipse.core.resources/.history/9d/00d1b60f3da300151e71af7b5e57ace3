@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_C57psKM7EeWHZtgiPPr2tQ" id="_C51jEKM7EeWHZtgiPPr2tQ" label="CLIENT" creationDate="2015-12-15T15:49:29.803+0100" modificationDate="2015-12-15T16:00:39.702+0100" version="0.1" statusCode="" item="_C57psqM7EeWHZtgiPPr2tQ" displayName="CLIENT">
+    <author href="../talend.project#_lSUrcKMVEeWZW8M6km2_fw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_8jEjYKM8EeWUKd26JB2zkQ" path="" locked="true" lockDate="2015-12-15T16:03:09.009+0100">
+    <locker href="../talend.project#_lSUrcKMVEeWZW8M6km2_fw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_C57psqM7EeWHZtgiPPr2tQ" property="_C57psKM7EeWHZtgiPPr2tQ" state="_8jEjYKM8EeWUKd26JB2zkQ">
+    <process href="CLIENT_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
