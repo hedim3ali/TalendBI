@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="contextDir" prompt="contextDir?" promptNeeded="true" type="id_String" value="C:\Users\mh.maali\Desktop\petrol\efwww\Talend\BO\contextFiles"/>
+  <contextParameter comment="" name="countryName" prompt="countryName?" promptNeeded="true" type="id_String" value="null"/>
+  <contextParameter comment="" name="countryCode" prompt="countryCode?" promptNeeded="true" type="id_String" value="null"/>
+  <contextParameter comment="" name="tabl" prompt="tabl?" promptNeeded="false" type="id_String" value="null"/>
+</talendfile:ContextType>

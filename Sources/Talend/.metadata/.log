@@ -20,3 +20,60 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -talendReload false
 
 !ENTRY org.talend.designer.webservice 0 0 2015-12-15 11:22:36.382
 !MESSAGE one third party library file [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java\jaxrpc.jar] was not found, it is required for bundle [org.talend.designer.webservice], please download it and place in [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java]
+!SESSION 2015-12-15 12:08:08.924 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_EN
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86 -talendReload false
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:13.410
+!MESSAGE 2015-12-15 12:08:13,400 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:34.461
+!MESSAGE 2015-12-15 12:08:34,460 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - test@talend.com logged on ProjetTestGIT
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:36.176
+!MESSAGE 2015-12-15 12:08:36,176 INFO  org.talend.core.repository.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+!SESSION 2015-12-15 12:08:44.344 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_EN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-15 12:08:45.665
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:46.704
+!MESSAGE 2015-12-15 12:08:46,703 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:56.117
+!MESSAGE 2015-12-15 12:08:56,117 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - test@talend.com logged on ProjetTestGIT
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:08:56.404
+!MESSAGE 2015-12-15 12:08:56,403 INFO  org.talend.core.repository.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.designer.webservice 0 0 2015-12-15 12:08:57.791
+!MESSAGE one third party library file [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java\jaxrpc.jar] was not found, it is required for bundle [org.talend.designer.webservice], please download it and place in [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java]
+
+!ENTRY org.talend.designer.webservice 0 0 2015-12-15 12:09:02.740
+!MESSAGE one third party library file [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java\jaxrpc.jar] was not found, it is required for bundle [org.talend.designer.webservice], please download it and place in [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java]
+!SESSION 2015-12-15 12:09:36.284 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_EN
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86 -talendReload false
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 12:09:38.470
+!MESSAGE 2015-12-15 12:09:38,468 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+

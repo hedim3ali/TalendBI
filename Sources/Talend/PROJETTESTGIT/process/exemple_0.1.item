@@ -2,12 +2,12 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="myStartDate" prompt="myStartDate?" promptNeeded="false" type="id_Date" value="yyyy-MM-dd HH:mm:ss;2005-12-01 12:28:21"/>
-    <contextParameter comment="" name="Postgres_base_source" prompt="Postgres_base_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="Dev"/>
-    <contextParameter comment="" name="Postgres_hote_source" prompt="Postgres_hote_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="Postgres_login_source" prompt="Postgres_login_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="postgres"/>
-    <contextParameter comment="" name="Postgres_passwd_source" prompt="Postgres_passwd_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="Applicam57"/>
-    <contextParameter comment="" name="Postgres_port_source" prompt="Postgres_port_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="5432"/>
-    <contextParameter comment="" name="Postgres_schema_source" prompt="Postgres_schema_source?" promptNeeded="false" repositoryContextId="_kjwwsHMPEeWoW63-a0fn9A" type="id_String" value="public"/>
+    <contextParameter comment="" name="Postgres_base_source" prompt="Postgres_base_source?" promptNeeded="false" type="id_String" value="Dev"/>
+    <contextParameter comment="" name="Postgres_hote_source" prompt="Postgres_hote_source?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="Postgres_login_source" prompt="Postgres_login_source?" promptNeeded="false" type="id_String" value="postgres"/>
+    <contextParameter comment="" name="Postgres_passwd_source" prompt="Postgres_passwd_source?" promptNeeded="false" type="id_String" value="Applicam57"/>
+    <contextParameter comment="" name="Postgres_port_source" prompt="Postgres_port_source?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Postgres_schema_source" prompt="Postgres_schema_source?" promptNeeded="false" type="id_String" value="public"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
@@ -25,36 +25,14 @@
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
-    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
-    <elementParameter field="TABLE" name="DRIVER_JAR"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
-    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
-    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
-    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
-    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
-    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
-    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
     <routinesParameter id="_OIlpwHKDEeWd1IrIHokeXg" name="DataOperation"/>
     <routinesParameter id="_OIrwYHKDEeWd1IrIHokeXg" name="Mathematical"/>
     <routinesParameter id="_OIuMoHKDEeWd1IrIHokeXg" name="Numeric"/>

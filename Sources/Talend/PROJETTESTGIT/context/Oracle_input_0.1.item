@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="Oracle_input_Port" prompt="Oracle_input_Port?" promptNeeded="false" type="id_String" value="1521"/>
+  <contextParameter comment="" name="Oracle_input_Server" prompt="Oracle_input_Server?" promptNeeded="false" type="id_String" value="10.157.80.120"/>
+  <contextParameter comment="" name="Oracle_input_Password" prompt="Oracle_input_Password?" promptNeeded="false" type="id_Password" value="sxGPtWG5t94="/>
+  <contextParameter comment="" name="Oracle_input_AdditionalParams" prompt="Oracle_input_AdditionalParams?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter comment="" name="Oracle_input_ServiceName" prompt="Oracle_input_ServiceName?" promptNeeded="false" type="id_String" value="pet"/>
+  <contextParameter comment="" name="Oracle_input_Schema" prompt="Oracle_input_Schema?" promptNeeded="false" type="id_String" value="FAC_0304_BO"/>
+  <contextParameter comment="" name="Oracle_input_Login" prompt="Oracle_input_Login?" promptNeeded="false" type="id_String" value="FAC_0304_BO"/>
+</talendfile:ContextType>

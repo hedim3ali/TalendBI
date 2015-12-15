@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="contextDir" prompt="contextDir?" promptNeeded="true" repositoryContextId="_iJcMIJ55EeWGw7BOglxroA" type="id_String" value="C:\Users\mh.maali\Desktop\petrol\efwww\Talend\BO\contextFiles"/>
+    <contextParameter comment="" name="countryCode" prompt="countryCode?" promptNeeded="true" repositoryContextId="_iJcMIJ55EeWGw7BOglxroA" type="id_String" value="null"/>
+    <contextParameter comment="" name="countryName" prompt="countryName?" promptNeeded="true" repositoryContextId="_iJcMIJ55EeWGw7BOglxroA" type="id_String" value="null"/>
+    <contextParameter comment="" name="tabl" prompt="tabl?" promptNeeded="false" repositoryContextId="_iJcMIJ55EeWGw7BOglxroA" type="id_String" value="null"/>
+    <contextParameter comment="" name="Oracle_input_AdditionalParams" prompt="Oracle_input_AdditionalParams?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="null"/>
+    <contextParameter comment="" name="Oracle_input_Login" prompt="Oracle_input_Login?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="FAC_0304_BO"/>
+    <contextParameter comment="" name="Oracle_input_Password" prompt="Oracle_input_Password?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_Password" value="sxGPtWG5t94="/>
+    <contextParameter comment="" name="Oracle_input_Port" prompt="Oracle_input_Port?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="1521"/>
+    <contextParameter comment="" name="Oracle_input_Schema" prompt="Oracle_input_Schema?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="FAC_0304_BO"/>
+    <contextParameter comment="" name="Oracle_input_Server" prompt="Oracle_input_Server?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="10.157.80.120"/>
+    <contextParameter comment="" name="Oracle_input_ServiceName" prompt="Oracle_input_ServiceName?" promptNeeded="false" repositoryContextId="_ne160J6KEeWGw7BOglxroA" type="id_String" value="pet"/>
+    <contextParameter comment="" name="CodeClient" prompt="entrer le nom de la colonne" promptNeeded="true" repositoryContextId="_Zf3xcHKLEeWpa_zklHc0jA" type="id_String" value="null"/>
+    <contextParameter comment="" name="Postgres_source_table" prompt="Postgres_source_table?" promptNeeded="false" repositoryContextId="_Zf3xcHKLEeWpa_zklHc0jA" type="id_String" value="client"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value=""/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value=""/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
     <elementParameter field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
     <elementParameter field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
     <elementParameter field="TEXT" name="HADOOP_APP_PATH" value=""/>
@@ -17,7 +31,6 @@
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
@@ -32,4 +45,20 @@
     <routinesParameter id="_uk1_sKMVEeWZW8M6km2_fw" name="TalendDate"/>
     <routinesParameter id="_uk304KMVEeWZW8M6km2_fw" name="TalendString"/>
   </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="CHECK" name="START" value="true"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println( &quot;Nom du job : &quot; + jobName);&#xA;System.out.println(&quot;Context : &quot; + contextStr );&#xA;&#xA;//variable global contenant le contexte d'execution&#xA;globalMap.put(&quot;context&quot;,contextStr) ;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
 </talendfile:ProcessType>
