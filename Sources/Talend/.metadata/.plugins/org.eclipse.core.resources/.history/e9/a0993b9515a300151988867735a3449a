@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_lRsZUaMVEeWZW8M6km2_fw" label="ProjetTestGIT" description="" language="java" technicalLabel="PROJETTESTGIT" local="true" author="_lSUrcKMVEeWZW8M6km2_fw"/>
+  <TalendProperties:User xmi:id="_lSUrcKMVEeWZW8M6km2_fw" login="test@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

@@ -1,0 +1,22 @@
+!SESSION 2015-12-15 11:21:02.980 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_EN
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86 -talendReload false
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 11:21:05.134
+!MESSAGE 2015-12-15 11:21:05,132 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 11:22:24.354
+!MESSAGE 2015-12-15 11:22:24,353 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - test@talend.com logged on ProjetTestGIT
+
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 11:22:25.133
+!MESSAGE 2015-12-15 11:22:25,132 INFO  org.talend.core.repository.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.designer.webservice 0 0 2015-12-15 11:22:36.382
+!MESSAGE one third party library file [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java\jaxrpc.jar] was not found, it is required for bundle [org.talend.designer.webservice], please download it and place in [C:\Talend\TOS_DI-Win32-r111943-V5.4.1\lib\java]

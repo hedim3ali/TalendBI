@@ -1,0 +1,11 @@
+!SESSION 2015-12-15 11:19:38.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_EN
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86 -talendReload false
+
+!ENTRY org.talend.platform.logging 1 0 2015-12-15 11:19:40.639
+!MESSAGE 2015-12-15 11:19:40,634 INFO  org.talend.repository.ui.login.LoginComposite  - validate updatesite...
+

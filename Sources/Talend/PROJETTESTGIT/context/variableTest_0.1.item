@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="CodeClient" prompt="entrer le nom de la colonne" promptNeeded="true" type="id_String" value="null"/>
+  <contextParameter comment="" name="Postgres_source_table" prompt="Postgres_source_table?" promptNeeded="false" type="id_String" value="client"/>
+</talendfile:ContextType>
